@@ -1,0 +1,945 @@
+CRITICAL - 2024-07-12 17:58:37 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets-front/img/search.png]
+in APPPATH\Views\frontend\details.php on line 81.
+ 1 APPPATH\Views\frontend\details.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 81)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets-front', 'img', 'search.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 17:58:38 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets/image/circle-user.png]
+in APPPATH\Views\frontend\details.php on line 81.
+ 1 APPPATH\Views\frontend\details.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 81)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets', 'image', 'circle-user.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 17:58:38 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets/image/logo-3.png]
+in APPPATH\Views\frontend\details.php on line 81.
+ 1 APPPATH\Views\frontend\details.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 81)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets', 'image', 'logo-3.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 17:58:39 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets-front/img/payment-method.png]
+in APPPATH\Views\frontend\details.php on line 81.
+ 1 APPPATH\Views\frontend\details.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 81)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets-front', 'img', 'payment-method.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 17:59:23 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets-front/img/search.png]
+in APPPATH\Views\frontend\details.php on line 81.
+ 1 APPPATH\Views\frontend\details.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 81)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets-front', 'img', 'search.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 17:59:23 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets/image/circle-user.png]
+in APPPATH\Views\frontend\details.php on line 81.
+ 1 APPPATH\Views\frontend\details.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 81)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets', 'image', 'circle-user.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 17:59:24 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets/image/logo-3.png]
+in APPPATH\Views\frontend\details.php on line 81.
+ 1 APPPATH\Views\frontend\details.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 81)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets', 'image', 'logo-3.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 17:59:24 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets-front/img/payment-method.png]
+in APPPATH\Views\frontend\details.php on line 81.
+ 1 APPPATH\Views\frontend\details.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 81)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets-front', 'img', 'payment-method.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:00:39 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets-front/img/search.png]
+in APPPATH\Views\frontend\details.php on line 81.
+ 1 APPPATH\Views\frontend\details.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 81)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets-front', 'img', 'search.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:00:39 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets/image/circle-user.png]
+in APPPATH\Views\frontend\details.php on line 81.
+ 1 APPPATH\Views\frontend\details.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 81)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets', 'image', 'circle-user.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:00:40 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets/image/logo-3.png]
+in APPPATH\Views\frontend\details.php on line 81.
+ 1 APPPATH\Views\frontend\details.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 81)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets', 'image', 'logo-3.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:00:40 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets-front/img/payment-method.png]
+in APPPATH\Views\frontend\details.php on line 81.
+ 1 APPPATH\Views\frontend\details.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 81)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets-front', 'img', 'payment-method.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:01:30 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets-front/img/search.png]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets-front', 'img', 'search.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:01:30 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets/image/circle-user.png]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets', 'image', 'circle-user.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:01:31 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets/image/logo-3.png]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets', 'image', 'logo-3.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:01:31 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets-front/img/payment-method.png]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets-front', 'img', 'payment-method.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:01:49 --> ErrorException: Undefined array key "nm_kategori"
+[Method: GET, Route: details/3]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nm_kategori"', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('3')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:02:00 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets-front/img/search.png]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets-front', 'img', 'search.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:02:01 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets/image/circle-user.png]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets', 'image', 'circle-user.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:02:01 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets/image/logo-3.png]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets', 'image', 'logo-3.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:02:01 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets-front/img/payment-method.png]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets-front', 'img', 'payment-method.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:02:49 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets-front/img/search.png]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets-front', 'img', 'search.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:02:49 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets/image/circle-user.png]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets', 'image', 'circle-user.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:02:49 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets/image/logo-3.png]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets', 'image', 'logo-3.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:02:50 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets-front/img/payment-method.png]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets-front', 'img', 'payment-method.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:03:23 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets-front/img/search.png]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets-front', 'img', 'search.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:03:23 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets/image/circle-user.png]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets', 'image', 'circle-user.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:03:23 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets/image/logo-3.png]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets', 'image', 'logo-3.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:03:23 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets-front/img/payment-method.png]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets-front', 'img', 'payment-method.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:03:46 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets-front/img/search.png]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets-front', 'img', 'search.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:03:47 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets/image/circle-user.png]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets', 'image', 'circle-user.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:03:47 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets/image/logo-3.png]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets', 'image', 'logo-3.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:03:47 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets-front/img/payment-method.png]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets-front', 'img', 'payment-method.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:17:42 --> Error: Call to undefined method App\Controllers\ShopController::hitungProduk()
+[Method: GET, Route: shop]
+in APPPATH\Controllers\ShopController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ShopController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShopController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:19:16 --> Error: Class "App\Controllers\ProdukModel" not found
+[Method: GET, Route: shop]
+in APPPATH\Controllers\ShopController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ShopController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShopController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:28:59 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets-front/img/search.png]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets-front', 'img', 'search.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:28:59 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets/image/circle-user.png]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets', 'image', 'circle-user.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:29:00 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets/image/logo-3.png]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets', 'image', 'logo-3.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:29:00 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets-front/img/payment-method.png]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets-front', 'img', 'payment-method.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:29:13 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets-front/img/search.png]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets-front', 'img', 'search.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:29:13 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets/image/circle-user.png]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets', 'image', 'circle-user.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:29:13 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets/image/logo-3.png]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets', 'image', 'logo-3.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:29:14 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets-front/img/payment-method.png]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets-front', 'img', 'payment-method.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:30:26 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets-front/img/search.png]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets-front', 'img', 'search.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:30:26 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets/image/circle-user.png]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets', 'image', 'circle-user.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:30:27 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets/image/logo-3.png]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets', 'image', 'logo-3.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:30:27 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets-front/img/payment-method.png]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets-front', 'img', 'payment-method.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:30:31 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets-front/img/search.png]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets-front', 'img', 'search.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:30:31 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets/image/circle-user.png]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets', 'image', 'circle-user.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:30:31 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets/image/logo-3.png]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets', 'image', 'logo-3.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 18:30:31 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: details/assets-front/img/payment-method.png]
+in APPPATH\Views\frontend\details.php on line 70.
+ 1 APPPATH\Views\frontend\details.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/details', [], true)
+ 5 APPPATH\Controllers\DetailsController.php(17): view('frontend/details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DetailsController->index('assets-front', 'img', 'payment-method.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 19:01:54 --> ErrorException: Undefined array key "picture"
+[Method: GET, Route: kategori/2]
+in APPPATH\Views\frontend\kategori.php on line 85.
+ 1 APPPATH\Views\frontend\kategori.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "picture"', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\kategori.php', 85)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/kategori', [], true)
+ 5 APPPATH\Controllers\KategoriHome.php(21): view('frontend/kategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KategoriHome->index('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KategoriHome))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 19:02:05 --> ErrorException: Undefined array key "picture"
+[Method: GET, Route: kategori/2]
+in APPPATH\Views\frontend\kategori.php on line 85.
+ 1 APPPATH\Views\frontend\kategori.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "picture"', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\kategori.php', 85)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/kategori', [], true)
+ 5 APPPATH\Controllers\KategoriHome.php(21): view('frontend/kategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KategoriHome->index('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KategoriHome))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 19:02:24 --> ErrorException: Undefined array key "picture"
+[Method: GET, Route: kategori/Hoodie/Sweatshirt]
+in APPPATH\Views\frontend\kategori.php on line 85.
+ 1 APPPATH\Views\frontend\kategori.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "picture"', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\kategori.php', 85)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/kategori', [], true)
+ 5 APPPATH\Controllers\KategoriHome.php(21): view('frontend/kategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KategoriHome->index('Hoodie', 'Sweatshirt')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KategoriHome))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 19:02:31 --> ErrorException: Undefined array key "picture"
+[Method: GET, Route: kategori/Pakaian]
+in APPPATH\Views\frontend\kategori.php on line 85.
+ 1 APPPATH\Views\frontend\kategori.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "picture"', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\kategori.php', 85)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/kategori', [], true)
+ 5 APPPATH\Controllers\KategoriHome.php(21): view('frontend/kategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KategoriHome->index('Pakaian')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KategoriHome))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 19:07:17 --> BadMethodCallException: Call to undefined method App\Models\KategoriModel::kategoriProduk
+[Method: GET, Route: kategori/3]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\KategoriHome.php(15): CodeIgniter\Model->__call('kategoriProduk', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KategoriHome->index('3')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KategoriHome))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 19:09:49 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori/3]
+in APPPATH\Controllers\KategoriHome.php on line 15.
+ 1 APPPATH\Controllers\KategoriHome.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Controllers\\KategoriHome.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KategoriHome->index('3')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KategoriHome))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 19:09:50 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori/3]
+in APPPATH\Controllers\KategoriHome.php on line 15.
+ 1 APPPATH\Controllers\KategoriHome.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Controllers\\KategoriHome.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KategoriHome->index('3')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KategoriHome))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 19:11:33 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori/3]
+in APPPATH\Controllers\KategoriHome.php on line 15.
+ 1 APPPATH\Controllers\KategoriHome.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Controllers\\KategoriHome.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KategoriHome->index('3')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KategoriHome))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 19:11:36 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori/3]
+in APPPATH\Controllers\KategoriHome.php on line 15.
+ 1 APPPATH\Controllers\KategoriHome.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Controllers\\KategoriHome.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KategoriHome->index('3')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KategoriHome))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 19:28:50 --> TypeError: urlencode(): Argument #1 ($string) must be of type string, array given
+[Method: GET, Route: /]
+in APPPATH\Views\frontend\index.php on line 94.
+ 1 APPPATH\Views\frontend\index.php(94): urlencode([...])
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/index', [], true)
+ 5 APPPATH\Controllers\Home.php(18): view('frontend/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 19:28:52 --> TypeError: urlencode(): Argument #1 ($string) must be of type string, array given
+[Method: GET, Route: /]
+in APPPATH\Views\frontend\index.php on line 94.
+ 1 APPPATH\Views\frontend\index.php(94): urlencode([...])
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/index', [], true)
+ 5 APPPATH\Controllers\Home.php(18): view('frontend/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 19:29:05 --> TypeError: urlencode(): Argument #1 ($string) must be of type string, array given
+[Method: GET, Route: /]
+in APPPATH\Views\frontend\index.php on line 94.
+ 1 APPPATH\Views\frontend\index.php(94): urlencode([...])
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/index', [], true)
+ 5 APPPATH\Controllers\Home.php(18): view('frontend/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 19:29:06 --> TypeError: urlencode(): Argument #1 ($string) must be of type string, array given
+[Method: GET, Route: /]
+in APPPATH\Views\frontend\index.php on line 94.
+ 1 APPPATH\Views\frontend\index.php(94): urlencode([...])
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/index', [], true)
+ 5 APPPATH\Controllers\Home.php(18): view('frontend/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-12 19:29:07 --> TypeError: urlencode(): Argument #1 ($string) must be of type string, array given
+[Method: GET, Route: /]
+in APPPATH\Views\frontend\index.php on line 94.
+ 1 APPPATH\Views\frontend\index.php(94): urlencode([...])
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\frontend\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/index', [], true)
+ 5 APPPATH\Controllers\Home.php(18): view('frontend/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')

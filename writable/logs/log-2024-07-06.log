@@ -1,0 +1,1918 @@
+CRITICAL - 2024-07-06 08:07:36 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 08:08:36 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 08:17:56 --> Error: Class name must be a valid object or a string
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Controllers\ProdukController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+ERROR - 2024-07-06 09:42:01 --> mysqli_sql_exception: Not unique table/alias: 'produk' in C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp\htdocs\fashion-store-ci\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fashion-store-ci\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\fashion-store-ci\app\Models\ProdukModel.php(20): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\fashion-store-ci\app\Controllers\ProdukController.php(17): App\Models\ProdukModel->getProduk()
+#8 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+#9 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+#10 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\fashion-store-ci\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\fashion-store-ci\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-07-06 09:42:01 --> Error: Call to a member function getResult() on bool
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Model.php on line 287.
+ 1 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Models\ProdukModel.php(20): CodeIgniter\BaseModel->findAll()
+ 3 APPPATH\Controllers\ProdukController.php(17): App\Models\ProdukModel->getProduk()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+ERROR - 2024-07-06 09:42:03 --> mysqli_sql_exception: Not unique table/alias: 'produk' in C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp\htdocs\fashion-store-ci\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fashion-store-ci\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\fashion-store-ci\app\Models\ProdukModel.php(20): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\fashion-store-ci\app\Controllers\ProdukController.php(17): App\Models\ProdukModel->getProduk()
+#8 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+#9 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+#10 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\fashion-store-ci\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\fashion-store-ci\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-07-06 09:42:03 --> Error: Call to a member function getResult() on bool
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Model.php on line 287.
+ 1 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Models\ProdukModel.php(20): CodeIgniter\BaseModel->findAll()
+ 3 APPPATH\Controllers\ProdukController.php(17): App\Models\ProdukModel->getProduk()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 09:44:25 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+ERROR - 2024-07-06 09:46:57 --> mysqli_sql_exception: Unknown column 'produk.id_kategori' in 'on clause' in C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT `produk`...', 0)
+#1 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`...')
+#2 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`...')
+#3 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `produk`...', Array, false)
+#4 C:\xampp\htdocs\fashion-store-ci\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fashion-store-ci\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\fashion-store-ci\app\Models\ProdukModel.php(19): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\fashion-store-ci\app\Controllers\ProdukController.php(17): App\Models\ProdukModel->getProduk()
+#8 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+#9 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+#10 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\fashion-store-ci\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\fashion-store-ci\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-07-06 09:46:57 --> Error: Call to a member function getResult() on bool
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Model.php on line 287.
+ 1 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Models\ProdukModel.php(19): CodeIgniter\BaseModel->findAll()
+ 3 APPPATH\Controllers\ProdukController.php(17): App\Models\ProdukModel->getProduk()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+ERROR - 2024-07-06 09:48:53 --> mysqli_sql_exception: Unknown column 'kategori.id' in 'on clause' in C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT `produk`...', 0)
+#1 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`...')
+#2 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`...')
+#3 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `produk`...', Array, false)
+#4 C:\xampp\htdocs\fashion-store-ci\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fashion-store-ci\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\fashion-store-ci\app\Models\ProdukModel.php(19): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\fashion-store-ci\app\Controllers\ProdukController.php(17): App\Models\ProdukModel->getProduk()
+#8 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+#9 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+#10 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\fashion-store-ci\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\fashion-store-ci\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-07-06 09:48:53 --> Error: Call to a member function getResult() on bool
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Model.php on line 287.
+ 1 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Models\ProdukModel.php(19): CodeIgniter\BaseModel->findAll()
+ 3 APPPATH\Controllers\ProdukController.php(17): App\Models\ProdukModel->getProduk()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+ERROR - 2024-07-06 09:48:56 --> mysqli_sql_exception: Unknown column 'kategori.id' in 'on clause' in C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT `produk`...', 0)
+#1 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`...')
+#2 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`...')
+#3 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `produk`...', Array, false)
+#4 C:\xampp\htdocs\fashion-store-ci\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fashion-store-ci\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\fashion-store-ci\app\Models\ProdukModel.php(19): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\fashion-store-ci\app\Controllers\ProdukController.php(17): App\Models\ProdukModel->getProduk()
+#8 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+#9 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+#10 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\fashion-store-ci\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\fashion-store-ci\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-07-06 09:48:56 --> Error: Call to a member function getResult() on bool
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Model.php on line 287.
+ 1 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Models\ProdukModel.php(19): CodeIgniter\BaseModel->findAll()
+ 3 APPPATH\Controllers\ProdukController.php(17): App\Models\ProdukModel->getProduk()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+ERROR - 2024-07-06 09:50:14 --> mysqli_sql_exception: Unknown column 'kategori.id' in 'on clause' in C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT `produk`...', 0)
+#1 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`...')
+#2 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`...')
+#3 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `produk`...', Array, false)
+#4 C:\xampp\htdocs\fashion-store-ci\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fashion-store-ci\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\fashion-store-ci\app\Models\ProdukModel.php(19): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\fashion-store-ci\app\Controllers\ProdukController.php(17): App\Models\ProdukModel->getProduk()
+#8 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+#9 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+#10 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\fashion-store-ci\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\fashion-store-ci\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-07-06 09:50:14 --> Error: Call to a member function getResult() on bool
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Model.php on line 287.
+ 1 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Models\ProdukModel.php(19): CodeIgniter\BaseModel->findAll()
+ 3 APPPATH\Controllers\ProdukController.php(17): App\Models\ProdukModel->getProduk()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 10:11:23 --> TypeError: str_contains(): Argument #1 ($haystack) must be of type string, bool given
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Database\BaseBuilder.php on line 580.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(580): str_contains(true, ',')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(325): CodeIgniter\Database\BaseBuilder->from(true)
+ 3 SYSTEMPATH\Database\BaseConnection.php(928): CodeIgniter\Database\BaseBuilder->__construct(true, Object(CodeIgniter\Database\MySQLi\Connection))
+ 4 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(true)
+ 5 SYSTEMPATH\Model.php(922): CodeIgniter\Model->builder()
+ 6 APPPATH\Models\ProdukModel.php(17): CodeIgniter\Model->__call('select', [...])
+ 7 APPPATH\Controllers\ProdukController.php(17): App\Models\ProdukModel->getProduk()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+ERROR - 2024-07-06 10:11:50 --> mysqli_sql_exception: Unknown column 'kategori.id' in 'on clause' in C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT `produk`...', 0)
+#1 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`...')
+#2 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`...')
+#3 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `produk`...', Array, false)
+#4 C:\xampp\htdocs\fashion-store-ci\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fashion-store-ci\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\fashion-store-ci\app\Models\ProdukModel.php(19): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\fashion-store-ci\app\Controllers\ProdukController.php(17): App\Models\ProdukModel->getProduk()
+#8 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+#9 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+#10 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\fashion-store-ci\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\fashion-store-ci\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-07-06 10:11:50 --> Error: Call to a member function getResult() on bool
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Model.php on line 287.
+ 1 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Models\ProdukModel.php(19): CodeIgniter\BaseModel->findAll()
+ 3 APPPATH\Controllers\ProdukController.php(17): App\Models\ProdukModel->getProduk()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 10:12:18 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 10:12:33 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 10:13:08 --> ArgumentCountError: Too few arguments to function CodeIgniter\Database\BaseBuilder::join(), 1 passed in C:\xampp\htdocs\fashion-store-ci\system\Model.php on line 930 and at least 2 expected
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Database\BaseBuilder.php on line 620.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->join('kategori')
+ 2 APPPATH\Models\ProdukModel.php(18): CodeIgniter\Model->__call('join', [...])
+ 3 APPPATH\Controllers\ProdukController.php(17): App\Models\ProdukModel->getProduk()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+ERROR - 2024-07-06 10:13:22 --> mysqli_sql_exception: Unknown table 'fashion-store.kategori' in C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT `produk`...', 0)
+#1 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`...')
+#2 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`...')
+#3 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `produk`...', Array, false)
+#4 C:\xampp\htdocs\fashion-store-ci\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fashion-store-ci\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\fashion-store-ci\app\Models\ProdukModel.php(18): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\fashion-store-ci\app\Controllers\ProdukController.php(17): App\Models\ProdukModel->getProduk()
+#8 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+#9 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+#10 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\fashion-store-ci\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\fashion-store-ci\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-07-06 10:13:22 --> Error: Call to a member function getResult() on bool
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Model.php on line 287.
+ 1 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Models\ProdukModel.php(18): CodeIgniter\BaseModel->findAll()
+ 3 APPPATH\Controllers\ProdukController.php(17): App\Models\ProdukModel->getProduk()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 10:14:05 --> TypeError: str_contains(): Argument #1 ($haystack) must be of type string, bool given
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Database\BaseBuilder.php on line 580.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(580): str_contains(true, ',')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(325): CodeIgniter\Database\BaseBuilder->from(true)
+ 3 SYSTEMPATH\Database\BaseConnection.php(928): CodeIgniter\Database\BaseBuilder->__construct(true, Object(CodeIgniter\Database\MySQLi\Connection))
+ 4 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(true)
+ 5 SYSTEMPATH\Model.php(922): CodeIgniter\Model->builder()
+ 6 APPPATH\Models\ProdukModel.php(17): CodeIgniter\Model->__call('select', [...])
+ 7 APPPATH\Controllers\ProdukController.php(17): App\Models\ProdukModel->getProduk()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 10:14:06 --> TypeError: str_contains(): Argument #1 ($haystack) must be of type string, bool given
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Database\BaseBuilder.php on line 580.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(580): str_contains(true, ',')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(325): CodeIgniter\Database\BaseBuilder->from(true)
+ 3 SYSTEMPATH\Database\BaseConnection.php(928): CodeIgniter\Database\BaseBuilder->__construct(true, Object(CodeIgniter\Database\MySQLi\Connection))
+ 4 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(true)
+ 5 SYSTEMPATH\Model.php(922): CodeIgniter\Model->builder()
+ 6 APPPATH\Models\ProdukModel.php(17): CodeIgniter\Model->__call('select', [...])
+ 7 APPPATH\Controllers\ProdukController.php(17): App\Models\ProdukModel->getProduk()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 10:14:30 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+ERROR - 2024-07-06 10:15:51 --> mysqli_sql_exception: Unknown column 'kategori.id' in 'on clause' in C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT `produk`...', 0)
+#1 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`...')
+#2 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`...')
+#3 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `produk`...', Array, false)
+#4 C:\xampp\htdocs\fashion-store-ci\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fashion-store-ci\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\fashion-store-ci\app\Models\ProdukModel.php(19): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\fashion-store-ci\app\Controllers\ProdukController.php(17): App\Models\ProdukModel->getProduk()
+#8 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+#9 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+#10 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\fashion-store-ci\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\fashion-store-ci\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-07-06 10:15:51 --> Error: Call to a member function getResult() on bool
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Model.php on line 287.
+ 1 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Models\ProdukModel.php(19): CodeIgniter\BaseModel->findAll()
+ 3 APPPATH\Controllers\ProdukController.php(17): App\Models\ProdukModel->getProduk()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 10:16:00 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 10:18:12 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 10:18:57 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 10:20:42 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+ERROR - 2024-07-06 10:22:00 --> mysqli_sql_exception: Unknown column 'produk.id_kategori' in 'on clause' in C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT `produk`...', 0)
+#1 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`...')
+#2 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`...')
+#3 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `produk`...', Array, false)
+#4 C:\xampp\htdocs\fashion-store-ci\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fashion-store-ci\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\fashion-store-ci\app\Models\ProdukModel.php(19): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\fashion-store-ci\app\Controllers\ProdukController.php(17): App\Models\ProdukModel->getProduk()
+#8 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+#9 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+#10 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\fashion-store-ci\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\fashion-store-ci\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-07-06 10:22:00 --> Error: Call to a member function getResult() on bool
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Model.php on line 287.
+ 1 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Models\ProdukModel.php(19): CodeIgniter\BaseModel->findAll()
+ 3 APPPATH\Controllers\ProdukController.php(17): App\Models\ProdukModel->getProduk()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 10:23:47 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Models\ProdukModel.php on line 19.
+ 1 APPPATH\Controllers\ProdukController.php(17): App\Models\ProdukModel->getProduk()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+ERROR - 2024-07-06 10:23:59 --> mysqli_sql_exception: Unknown column 'produk.id_kategori' in 'on clause' in C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\fashion-store-ci\app\Models\ProdukModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fashion-store-ci\app\Controllers\ProdukController.php(17): App\Models\ProdukModel->getProduk()
+#6 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+#7 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+#8 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\fashion-store-ci\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\fashion-store-ci\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-07-06 10:23:59 --> Error: Call to a member function getResultArray() on bool
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Models\ProdukModel.php on line 20.
+ 1 APPPATH\Controllers\ProdukController.php(17): App\Models\ProdukModel->getProduk()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+ERROR - 2024-07-06 10:24:51 --> mysqli_sql_exception: Unknown table 'fashion-store.kategori' in C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT `produk`...', 0)
+#1 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`...')
+#2 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`...')
+#3 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `produk`...', Array, false)
+#4 C:\xampp\htdocs\fashion-store-ci\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fashion-store-ci\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\fashion-store-ci\app\Models\ProdukModel.php(18): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\fashion-store-ci\app\Controllers\ProdukController.php(17): App\Models\ProdukModel->getProduk()
+#8 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+#9 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+#10 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\fashion-store-ci\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\fashion-store-ci\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-07-06 10:24:51 --> Error: Call to a member function getResult() on bool
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Model.php on line 287.
+ 1 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Models\ProdukModel.php(18): CodeIgniter\BaseModel->findAll()
+ 3 APPPATH\Controllers\ProdukController.php(17): App\Models\ProdukModel->getProduk()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+ERROR - 2024-07-06 10:26:56 --> mysqli_sql_exception: Unknown table 'fashion-store.kategori' in C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT `produk`...', 0)
+#1 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`...')
+#2 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`...')
+#3 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `produk`...', Array, false)
+#4 C:\xampp\htdocs\fashion-store-ci\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fashion-store-ci\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\fashion-store-ci\app\Models\ProdukModel.php(18): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\fashion-store-ci\app\Controllers\ProdukController.php(16): App\Models\ProdukModel->getProduk()
+#8 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+#9 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+#10 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\fashion-store-ci\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\fashion-store-ci\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-07-06 10:26:56 --> Error: Call to a member function getResult() on bool
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Model.php on line 287.
+ 1 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Models\ProdukModel.php(18): CodeIgniter\BaseModel->findAll()
+ 3 APPPATH\Controllers\ProdukController.php(16): App\Models\ProdukModel->getProduk()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+ERROR - 2024-07-06 10:30:59 --> mysqli_sql_exception: Unknown table 'fashion-store.kategori' in C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT `produk`...', 0)
+#1 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`...')
+#2 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`...')
+#3 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `produk`...', Array, false)
+#4 C:\xampp\htdocs\fashion-store-ci\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fashion-store-ci\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\fashion-store-ci\app\Models\ProdukModel.php(18): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\fashion-store-ci\app\Controllers\ProdukController.php(16): App\Models\ProdukModel->getProduk()
+#8 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+#9 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+#10 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\fashion-store-ci\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\fashion-store-ci\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-07-06 10:30:59 --> Error: Call to a member function getResult() on bool
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Model.php on line 287.
+ 1 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Models\ProdukModel.php(18): CodeIgniter\BaseModel->findAll()
+ 3 APPPATH\Controllers\ProdukController.php(16): App\Models\ProdukModel->getProduk()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+ERROR - 2024-07-06 10:32:00 --> mysqli_sql_exception: Unknown table 'fashion-store.kategori' in C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT `produk`...', 0)
+#1 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`...')
+#2 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`...')
+#3 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `produk`...', Array, false)
+#4 C:\xampp\htdocs\fashion-store-ci\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fashion-store-ci\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\fashion-store-ci\app\Models\ProdukModel.php(18): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\fashion-store-ci\app\Controllers\ProdukController.php(16): App\Models\ProdukModel->getProduk()
+#8 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+#9 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+#10 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\fashion-store-ci\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\fashion-store-ci\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-07-06 10:32:00 --> Error: Call to a member function getResult() on bool
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Model.php on line 287.
+ 1 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Models\ProdukModel.php(18): CodeIgniter\BaseModel->findAll()
+ 3 APPPATH\Controllers\ProdukController.php(16): App\Models\ProdukModel->getProduk()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 10:33:09 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 15:52:25 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Views\admin\data_produk.php on line 146.
+ 1 APPPATH\Views\admin\data_produk.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php', 146)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(19): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 15:53:21 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\fashion-store-ci\system\Model.php on line 930
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Database\BaseBuilder.php on line 397.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->select('produk.*', 'id')
+ 2 APPPATH\Models\ProdukModel.php(17): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\ProdukController.php(16): App\Models\ProdukModel->getProduk()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 15:53:37 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Views\admin\data_produk.php on line 146.
+ 1 APPPATH\Views\admin\data_produk.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php', 146)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(19): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+ERROR - 2024-07-06 15:59:53 --> mysqli_sql_exception: Unknown column 'kategori.nama_kategori' in 'field list' in C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT `produk`...', 0)
+#1 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`...')
+#2 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`...')
+#3 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `produk`...', Array, false)
+#4 C:\xampp\htdocs\fashion-store-ci\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fashion-store-ci\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\fashion-store-ci\app\Models\ProdukModel.php(19): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\fashion-store-ci\app\Controllers\ProdukController.php(20): App\Models\ProdukModel->getProduk()
+#8 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+#9 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+#10 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\fashion-store-ci\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\fashion-store-ci\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-07-06 15:59:53 --> Error: Call to a member function getResult() on bool
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Model.php on line 287.
+ 1 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Models\ProdukModel.php(19): CodeIgniter\BaseModel->findAll()
+ 3 APPPATH\Controllers\ProdukController.php(20): App\Models\ProdukModel->getProduk()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+ERROR - 2024-07-06 15:59:55 --> mysqli_sql_exception: Unknown column 'kategori.nama_kategori' in 'field list' in C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT `produk`...', 0)
+#1 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`...')
+#2 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`...')
+#3 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `produk`...', Array, false)
+#4 C:\xampp\htdocs\fashion-store-ci\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fashion-store-ci\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\fashion-store-ci\app\Models\ProdukModel.php(19): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\fashion-store-ci\app\Controllers\ProdukController.php(20): App\Models\ProdukModel->getProduk()
+#8 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+#9 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+#10 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\fashion-store-ci\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\fashion-store-ci\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-07-06 15:59:55 --> Error: Call to a member function getResult() on bool
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Model.php on line 287.
+ 1 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Models\ProdukModel.php(19): CodeIgniter\BaseModel->findAll()
+ 3 APPPATH\Controllers\ProdukController.php(20): App\Models\ProdukModel->getProduk()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+ERROR - 2024-07-06 16:00:15 --> mysqli_sql_exception: Unknown column 'kategori.nama_kategori' in 'field list' in C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT `produk`...', 0)
+#1 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`...')
+#2 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`...')
+#3 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `produk`...', Array, false)
+#4 C:\xampp\htdocs\fashion-store-ci\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fashion-store-ci\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\fashion-store-ci\app\Models\ProdukModel.php(19): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\fashion-store-ci\app\Controllers\ProdukController.php(20): App\Models\ProdukModel->getProduk()
+#8 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+#9 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+#10 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\fashion-store-ci\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\fashion-store-ci\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-07-06 16:00:15 --> Error: Call to a member function getResult() on bool
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Model.php on line 287.
+ 1 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Models\ProdukModel.php(19): CodeIgniter\BaseModel->findAll()
+ 3 APPPATH\Controllers\ProdukController.php(20): App\Models\ProdukModel->getProduk()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+ERROR - 2024-07-06 16:01:55 --> mysqli_sql_exception: Unknown column 'kategori.nama_kategori' in 'field list' in C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\xampp\htdocs\fashion-store-ci\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT `produk`...', 0)
+#1 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`...')
+#2 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`...')
+#3 C:\xampp\htdocs\fashion-store-ci\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `produk`...', Array, false)
+#4 C:\xampp\htdocs\fashion-store-ci\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fashion-store-ci\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\fashion-store-ci\app\Models\ProdukModel.php(19): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\fashion-store-ci\app\Controllers\ProdukController.php(24): App\Models\ProdukModel->getProduk()
+#8 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+#9 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+#10 C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\fashion-store-ci\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\fashion-store-ci\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\fashion-store-ci\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-07-06 16:01:55 --> Error: Call to a member function getResult() on bool
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Model.php on line 287.
+ 1 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Models\ProdukModel.php(19): CodeIgniter\BaseModel->findAll()
+ 3 APPPATH\Controllers\ProdukController.php(24): App\Models\ProdukModel->getProduk()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 16:02:53 --> Error: Class "App\Controllers\ProdukModel" not found
+[Method: GET, Route: admin/data_kategori]
+in APPPATH\Controllers\KategoriController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KategoriController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KategoriController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 16:05:38 --> Error: Class "App\Controllers\ProdukModel" not found
+[Method: GET, Route: admin/data_kategori]
+in APPPATH\Controllers\KategoriController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KategoriController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KategoriController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 16:05:41 --> Error: Class "App\Controllers\ProdukModel" not found
+[Method: GET, Route: admin/data_kategori]
+in APPPATH\Controllers\KategoriController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KategoriController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KategoriController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 16:05:44 --> Error: Class "App\Controllers\ProdukModel" not found
+[Method: GET, Route: admin/data_kategori]
+in APPPATH\Controllers\KategoriController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KategoriController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KategoriController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 16:08:04 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 16:09:52 --> ErrorException: Undefined property: App\Controllers\ProdukController::$produkModel
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Controllers\ProdukController.php on line 14.
+ 1 APPPATH\Controllers\ProdukController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProdukController::$produkModel', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Controllers\\ProdukController.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 16:10:03 --> ErrorException: Undefined property: App\Controllers\ProdukController::$produkModel
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Controllers\ProdukController.php on line 14.
+ 1 APPPATH\Controllers\ProdukController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProdukController::$produkModel', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Controllers\\ProdukController.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 16:10:05 --> ErrorException: Undefined property: App\Controllers\ProdukController::$produkModel
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Controllers\ProdukController.php on line 14.
+ 1 APPPATH\Controllers\ProdukController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProdukController::$produkModel', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Controllers\\ProdukController.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 16:10:05 --> ErrorException: Undefined property: App\Controllers\ProdukController::$produkModel
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Controllers\ProdukController.php on line 14.
+ 1 APPPATH\Controllers\ProdukController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProdukController::$produkModel', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Controllers\\ProdukController.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 16:12:16 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 16:13:32 --> TypeError: str_contains(): Argument #1 ($haystack) must be of type string, bool given
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Database\BaseBuilder.php on line 580.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(580): str_contains(true, ',')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(325): CodeIgniter\Database\BaseBuilder->from(true)
+ 3 SYSTEMPATH\Database\BaseConnection.php(928): CodeIgniter\Database\BaseBuilder->__construct(true, Object(CodeIgniter\Database\MySQLi\Connection))
+ 4 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(true)
+ 5 SYSTEMPATH\Model.php(273): CodeIgniter\Model->builder()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ProdukModel.php(17): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\ProdukController.php(15): App\Models\ProdukModel->getProduk()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 16:13:41 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 16:14:19 --> ArgumentCountError: Too few arguments to function CodeIgniter\Database\BaseBuilder::join(), 1 passed in C:\xampp\htdocs\fashion-store-ci\system\Model.php on line 930 and at least 2 expected
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Database\BaseBuilder.php on line 620.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->join('kategori.*')
+ 2 APPPATH\Models\ProdukModel.php(17): CodeIgniter\Model->__call('join', [...])
+ 3 APPPATH\Controllers\ProdukController.php(15): App\Models\ProdukModel->getProduk()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 16:14:59 --> TypeError: CodeIgniter\Database\BaseBuilder::join(): Argument #4 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\fashion-store-ci\system\Model.php on line 930
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Database\BaseBuilder.php on line 620.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->join('kategori.*', 'id_kategori', 'nm_kategori', 'img_kategori')
+ 2 APPPATH\Models\ProdukModel.php(17): CodeIgniter\Model->__call('join', [...])
+ 3 APPPATH\Controllers\ProdukController.php(15): App\Models\ProdukModel->getProduk()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 16:15:08 --> ArgumentCountError: Too few arguments to function CodeIgniter\Database\BaseBuilder::join(), 1 passed in C:\xampp\htdocs\fashion-store-ci\system\Model.php on line 930 and at least 2 expected
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Database\BaseBuilder.php on line 620.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->join('kategori')
+ 2 APPPATH\Models\ProdukModel.php(17): CodeIgniter\Model->__call('join', [...])
+ 3 APPPATH\Controllers\ProdukController.php(15): App\Models\ProdukModel->getProduk()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 16:16:05 --> ArgumentCountError: Too few arguments to function CodeIgniter\Database\BaseBuilder::join(), 1 passed in C:\xampp\htdocs\fashion-store-ci\system\Model.php on line 930 and at least 2 expected
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Database\BaseBuilder.php on line 620.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->join('kategori')
+ 2 APPPATH\Models\ProdukModel.php(17): CodeIgniter\Model->__call('join', [...])
+ 3 APPPATH\Controllers\ProdukController.php(15): App\Models\ProdukModel->getProduk()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 16:17:27 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 16:18:18 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 16:19:36 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 16:20:00 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 16:20:34 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 16:20:46 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 16:54:30 --> Error: Class "App\Models\LoginModel" not found
+[Method: POST, Route: admin/login_admin/login]
+in APPPATH\Controllers\LoginController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 17:00:09 --> Error: Class "App\Models\LoginModel" not found
+[Method: POST, Route: admin/login_admin/login]
+in APPPATH\Controllers\LoginController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 17:00:46 --> Error: Class "App\Models\LoginModel" not found
+[Method: POST, Route: admin/login_admin/login]
+in APPPATH\Controllers\LoginController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 17:07:41 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 17:08:02 --> Error: Class "App\Models\LoginModel" not found
+[Method: POST, Route: admin/login_admin/login]
+in APPPATH\Controllers\LoginController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 17:09:34 --> Error: Class "App\Models\LoginModel" not found
+[Method: POST, Route: admin/login_admin/login]
+in APPPATH\Controllers\LoginController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 17:51:39 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 17:58:10 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: admin/index]
+in APPPATH\Views\admin\index.php on line 67.
+ 1 APPPATH\Views\admin\index.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\index.php', 67)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/index', [], true)
+ 5 APPPATH\Controllers\AdminController.php(9): view('admin/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 17:58:42 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: admin/index]
+in APPPATH\Views\admin\index.php on line 67.
+ 1 APPPATH\Views\admin\index.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\index.php', 67)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/index', [], true)
+ 5 APPPATH\Controllers\AdminController.php(9): view('admin/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 17:59:40 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 18:01:02 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 18:01:57 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 18:02:32 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 18:03:27 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 18:03:59 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 18:09:11 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 18:10:17 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 18:10:25 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 18:11:06 --> ErrorException: Undefined array key "harga"
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Views\admin\data_produk.php on line 207.
+ 1 APPPATH\Views\admin\data_produk.php(207): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga"', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php', 207)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(20): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 18:11:33 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 18:12:27 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 18:13:27 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 18:13:45 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 18:13:53 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 18:14:09 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 18:14:29 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 18:17:20 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 18:17:24 --> Error: Call to a member function destroy() on null
+[Method: GET, Route: admin/auth/logout]
+in APPPATH\Controllers\LoginController.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->logout()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 18:18:46 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 18:18:50 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 18:20:36 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 18:21:14 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 18:21:36 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 18:38:54 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 18:46:36 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 18:46:41 --> ErrorException: Undefined variable $row
+[Method: GET, Route: admin/data_akses]
+in APPPATH\Views\admin\data_akses.php on line 52.
+ 1 APPPATH\Views\admin\data_akses.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_akses.php', 52)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_akses.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_akses', [], true)
+ 5 APPPATH\Controllers\AksesController.php(10): view('admin/data_akses')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AksesController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AksesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 18:47:41 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 18:56:05 --> ErrorException: Array to string conversion
+[Method: GET, Route: admin/data_akses]
+in APPPATH\Controllers\AksesController.php on line 14.
+ 1 APPPATH\Controllers\AksesController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Controllers\\AksesController.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AksesController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AksesController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 18:59:25 --> ErrorException: Array to string conversion
+[Method: GET, Route: admin/data_akses]
+in APPPATH\Controllers\AksesController.php on line 13.
+ 1 APPPATH\Controllers\AksesController.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Controllers\\AksesController.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AksesController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AksesController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 18:59:27 --> ErrorException: Array to string conversion
+[Method: GET, Route: admin/data_akses]
+in APPPATH\Controllers\AksesController.php on line 13.
+ 1 APPPATH\Controllers\AksesController.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Controllers\\AksesController.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AksesController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AksesController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 19:02:03 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 19:13:16 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 19:15:00 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 19:15:04 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 19:15:16 --> Error: Call to undefined method App\Controllers\AksesController::tambah_akses()
+[Method: POST, Route: admin/tambah_akses]
+in APPPATH\Controllers\AksesController.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AksesController->tambah()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AksesController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 19:17:09 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 19:17:13 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 19:17:24 --> Error: Call to undefined method App\Controllers\AksesController::tambah_akses()
+[Method: POST, Route: admin/tambah_akses]
+in APPPATH\Controllers\AksesController.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AksesController->tambah()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AksesController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 19:18:52 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 19:18:55 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 19:19:04 --> Error: Call to undefined method App\Controllers\AksesController::tambah_akses()
+[Method: POST, Route: admin/tambah_akses]
+in APPPATH\Controllers\AksesController.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AksesController->tambah()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AksesController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 19:19:49 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 19:19:52 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 19:20:05 --> Error: Call to undefined method App\Controllers\AksesController::tambah_akses()
+[Method: POST, Route: admin/tambah_akses]
+in APPPATH\Controllers\AksesController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AksesController->tambah()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AksesController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 19:21:51 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 19:21:55 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 19:22:06 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 19:24:49 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 19:25:36 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 19:28:27 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 19:28:38 --> ArgumentCountError: Too few arguments to function App\Models\AksesModel::update_akses(), 1 passed in C:\xampp\htdocs\fashion-store-ci\app\Controllers\AksesController.php on line 44 and exactly 2 expected
+[Method: POST, Route: admin/update_akses]
+in APPPATH\Models\AksesModel.php on line 24.
+ 1 APPPATH\Controllers\AksesController.php(44): App\Models\AksesModel->update_akses([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AksesController->update()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AksesController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 19:29:06 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 19:29:53 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 19:30:05 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 19:30:54 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 19:31:06 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 19:31:16 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 19:35:05 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 19:36:03 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 19:36:58 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 19:37:01 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 19:37:07 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 19:39:16 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 19:43:09 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-06 19:43:42 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "sigaka.js" type="text"
+[Method: GET, Route: assets/js/core/sigaka.js%22%20type=%22text/javascript]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('assets/js/core/sigaka.js" type="text/javascript')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/js/core/sigaka.js" type="text/javascript')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
