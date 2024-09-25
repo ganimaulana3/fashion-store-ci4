@@ -5,6 +5,8 @@ use App\Models\BukutamuModel;
 
 class TamuController extends BaseController
 {
+    protected $bukutamuModel;
+
     public function index()
     {
         $this->bukutamuModel = new BukutamuModel();

@@ -7,6 +7,9 @@ use CodeIgniter\Controller;
 
 class ShopController extends BaseController
 {
+    protected $shopController;
+    protected $cartModel;
+
     public function index()
     {
         $this->shopController = new ProdukModel();

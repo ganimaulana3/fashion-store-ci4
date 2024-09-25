@@ -6,6 +6,8 @@ use App\Models\CartModel;
 
 class DetailsController extends BaseController
 {
+    protected $cartModel;
+    
     public function index($id = null)
     {
         if ($id === null) {

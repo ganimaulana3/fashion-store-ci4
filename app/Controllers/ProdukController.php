@@ -8,6 +8,8 @@ use CodeIgniter\Controller;
 class ProdukController extends Controller
 {
     protected $session;
+    protected $produkModel;
+    protected $kategoriModel;
     
     public function index()
     {

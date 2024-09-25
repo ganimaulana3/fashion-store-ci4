@@ -7,6 +7,7 @@ use CodeIgniter\Controller;
 class TransaksiController extends BaseController
 {
     protected $checkoutModel;
+    protected $session;
 
     public function index()
     {

@@ -7,6 +7,10 @@ use App\Models\CartModel;
 
 class Home extends BaseController
 {
+    protected $produkModel;
+    protected $kategoriModel;
+    protected $cartModel;
+
     public function index()
     {
         $this->produkModel = new ProdukModel();

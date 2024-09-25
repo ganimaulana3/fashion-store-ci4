@@ -9,6 +9,11 @@ use CodeIgniter\Controller;
 
 class SettingsController extends BaseController
 {
+    protected $session;
+    protected $cartModel;
+    protected $checkoutModel;
+    protected $bukutamuModel;
+
     public function index()
     {
         $this->session = session();

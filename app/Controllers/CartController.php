@@ -6,6 +6,8 @@ use CodeIgniter\Controller;
 
 class CartController extends BaseController
 {
+    protected $cartModel;
+
     public function index()
     {
         $this->cartModel = new CartModel();

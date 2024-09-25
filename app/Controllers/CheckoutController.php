@@ -7,6 +7,9 @@ use App\Models\ProdukModel;
 
 class CheckoutController extends BaseController
 {
+    protected $cartModel;
+    protected $checkoutModel;
+
     public function index($id = null)
     {
         if ($id === null) {

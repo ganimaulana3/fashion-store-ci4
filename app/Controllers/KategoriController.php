@@ -7,6 +7,7 @@ use CodeIgniter\Controller;
 class KategoriController extends Controller
 {
     protected $session;
+    protected $kategoriModel;
    
     public function index()
     {

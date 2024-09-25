@@ -7,6 +7,7 @@ use CodeIgniter\Controller;
 class AksesController extends BaseController
 {
     protected $session;
+    protected $aksesModel;
     
     public function index()
     {
