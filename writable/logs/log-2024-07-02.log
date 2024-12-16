@@ -1,0 +1,1821 @@
+CRITICAL - 2024-07-02 02:53:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "frontend/index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/index', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('frontend/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 02:54:03 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 02:54:40 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 02:55:26 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 02:55:41 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 02:56:13 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 02:56:45 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 02:56:46 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 02:57:14 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 02:57:15 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 02:57:21 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 02:57:22 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 02:59:15 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 02:59:29 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 02:59:48 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 02:59:49 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 02:59:50 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 02:59:50 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:00:11 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:00:12 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:00:12 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:01:04 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:01:05 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:01:53 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:02:54 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 46
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(46): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:02:56 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 46
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(46): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:02:56 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 46
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(46): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:02:56 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 46
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(46): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:03:37 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:03:39 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:03:40 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:03:41 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:03:59 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:04:01 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:05:49 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:07:44 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:07:58 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:07:59 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:08:00 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:08:00 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:08:00 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:08:01 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:08:01 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:08:17 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 46
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(46): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:08:18 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 46
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(46): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:10:01 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:10:02 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:10:20 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 55
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(55): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:10:53 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 45
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(45): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:10:54 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 45
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(45): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:10:54 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 45
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(45): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:10:55 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 45
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(45): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:10:55 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 45
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(45): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:10:56 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 45
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(45): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:10:56 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 45
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(45): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:11:05 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 45
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(45): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:12:04 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 45
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(45): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:12:05 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 45
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(45): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:12:05 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 45
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(45): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:12:08 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 45
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(45): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:15:24 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "frontend/index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('frontend/index', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('frontend/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:15:38 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 45
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(45): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:18:37 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 45
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(45): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:18:50 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 45
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(45): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:19:02 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 45
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(45): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:19:10 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 45
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(45): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:19:48 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 45
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(45): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:19:49 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 45
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(45): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 03:21:50 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 45
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(45): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 05:29:50 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 45
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(45): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 05:33:16 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 45
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(45): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 05:34:25 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 45
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(45): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 05:34:41 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 45
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(45): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 05:38:18 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 43
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(43): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(17): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 16:43:36 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 39
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(39): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(17): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 16:52:23 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 39
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(39): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(17): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 16:53:07 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 39
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(39): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(17): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 16:54:20 --> Error: Call to undefined function number_to_currency()
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Views\admin\data_produk.php on line 39.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 4 APPPATH\Controllers\ProdukController.php(17): view('admin/data_produk', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 16:57:32 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 39
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(39): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(17): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 16:57:48 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 39
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(39): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(17): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:01:30 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 39
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(39): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(16): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:04:41 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 45
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(45): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(16): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:04:59 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 45
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(45): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(16): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:05:31 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 45
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(45): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(16): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:05:42 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 45
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(45): number_to_currency('', 'IDR')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(16): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:05:43 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 45
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(45): number_to_currency('', 'IDR')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(16): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:09:53 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 45
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(45): number_to_currency('', 'IDR')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(20): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:09:54 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 45
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(45): number_to_currency('', 'IDR')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(20): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:10:01 --> Error: Call to undefined function App\Controllers\helpers()
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Controllers\ProdukController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\ProdukController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:10:02 --> Error: Call to undefined function App\Controllers\helpers()
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Controllers\ProdukController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\ProdukController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:10:19 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 45
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(45): number_to_currency('', 'IDR')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(17): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:10:25 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 45
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(45): number_to_currency('', 'IDR')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(17): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:18:13 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 45
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(45): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(16): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:18:32 --> TypeError: trim(): Argument #1 ($string) must be of type string, bool given
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 161.
+ 1 SYSTEMPATH\Helpers\number_helper.php(161): trim(false, '. ')
+ 2 SYSTEMPATH\Helpers\number_helper.php(123): format_number(46995.0, 1, 'en', [...])
+ 3 APPPATH\Views\admin\data_produk.php(45): number_to_currency(46995.0, 'Rp')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 7 APPPATH\Controllers\ProdukController.php(16): view('admin/data_produk', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:18:38 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 45
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(45): number_to_currency('', 'USD')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(16): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:20:18 --> TypeError: number_to_currency(): Argument #1 ($num) must be of type float, string given, called in C:\xampp\htdocs\fashion-store-ci\app\Views\admin\data_produk.php on line 45
+[Method: GET, Route: admin/data_produk]
+in SYSTEMPATH\Helpers\number_helper.php on line 121.
+ 1 APPPATH\Views\admin\data_produk.php(45): number_to_currency('', 'Rp.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(16): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:21:10 --> ErrorException: Undefined property: App\Controllers\ProdukController::$load
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Controllers\ProdukController.php on line 12.
+ 1 APPPATH\Controllers\ProdukController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProdukController::$load', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Controllers\\ProdukController.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:21:11 --> ErrorException: Undefined property: App\Controllers\ProdukController::$load
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Controllers\ProdukController.php on line 12.
+ 1 APPPATH\Controllers\ProdukController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProdukController::$load', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Controllers\\ProdukController.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:22:19 --> ErrorException: Undefined property: App\Controllers\ProdukController::$load
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Controllers\ProdukController.php on line 12.
+ 1 APPPATH\Controllers\ProdukController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProdukController::$load', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Controllers\\ProdukController.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:22:44 --> ErrorException: Undefined property: App\Controllers\ProdukController::$load
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Controllers\ProdukController.php on line 12.
+ 1 APPPATH\Controllers\ProdukController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProdukController::$load', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Controllers\\ProdukController.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:24:04 --> ErrorException: Undefined property: App\Controllers\ProdukController::$load
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Controllers\ProdukController.php on line 12.
+ 1 APPPATH\Controllers\ProdukController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProdukController::$load', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Controllers\\ProdukController.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:25:07 --> ErrorException: Undefined property: App\Controllers\ProdukController::$load
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Controllers\ProdukController.php on line 12.
+ 1 APPPATH\Controllers\ProdukController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProdukController::$load', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Controllers\\ProdukController.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:27:41 --> ErrorException: Undefined property: App\Controllers\ProdukController::$load
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Controllers\ProdukController.php on line 12.
+ 1 APPPATH\Controllers\ProdukController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProdukController::$load', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Controllers\\ProdukController.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:27:42 --> ErrorException: Undefined property: App\Controllers\ProdukController::$load
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Controllers\ProdukController.php on line 12.
+ 1 APPPATH\Controllers\ProdukController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProdukController::$load', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Controllers\\ProdukController.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:28:24 --> ErrorException: Undefined property: App\Controllers\ProdukController::$load
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Controllers\ProdukController.php on line 12.
+ 1 APPPATH\Controllers\ProdukController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProdukController::$load', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Controllers\\ProdukController.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:28:25 --> ErrorException: Undefined property: App\Controllers\ProdukController::$load
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Controllers\ProdukController.php on line 12.
+ 1 APPPATH\Controllers\ProdukController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProdukController::$load', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Controllers\\ProdukController.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:28:52 --> ErrorException: Undefined property: App\Controllers\ProdukController::$load
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Controllers\ProdukController.php on line 12.
+ 1 APPPATH\Controllers\ProdukController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProdukController::$load', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Controllers\\ProdukController.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:33:15 --> Error: Call to undefined function formattedNumber()
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Views\admin\data_produk.php on line 45.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 4 APPPATH\Controllers\ProdukController.php(28): view('admin/data_produk', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:33:30 --> Error: Call to undefined function Rp 1.234.567,89()
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Views\admin\data_produk.php on line 45.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 4 APPPATH\Controllers\ProdukController.php(28): view('admin/data_produk', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:35:10 --> Error: Call to undefined function Rp 1.234.567,89()
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Views\admin\data_produk.php on line 45.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 4 APPPATH\Controllers\ProdukController.php(28): view('admin/data_produk', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:39:57 --> TypeError: number_format(): Argument #1 ($num) must be of type float, string given
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Helpers\nominal_helper.php on line 6.
+ 1 APPPATH\Helpers\nominal_helper.php(6): number_format('', 0, ',', '.')
+ 2 APPPATH\Views\admin\data_produk.php(45): nominal('')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 6 APPPATH\Controllers\ProdukController.php(22): view('admin/data_produk', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:40:17 --> TypeError: number_format(): Argument #1 ($num) must be of type float, string given
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Helpers\nominal_helper.php on line 6.
+ 1 APPPATH\Helpers\nominal_helper.php(6): number_format('', 0, ',', '.')
+ 2 APPPATH\Views\admin\data_produk.php(45): nominal('')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 6 APPPATH\Controllers\ProdukController.php(22): view('admin/data_produk', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:41:16 --> TypeError: number_format(): Argument #1 ($num) must be of type float, string given
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Helpers\nominal_helper.php on line 6.
+ 1 APPPATH\Helpers\nominal_helper.php(6): number_format('', 0, ',', '.')
+ 2 APPPATH\Views\admin\data_produk.php(45): nominal('')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 6 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:42:48 --> ErrorException: Undefined variable $no
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Views\admin\data_produk.php on line 42.
+ 1 APPPATH\Views\admin\data_produk.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php', 42)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:46:20 --> TypeError: number_format(): Argument #1 ($num) must be of type float, string given
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Helpers\nominal_helper.php on line 6.
+ 1 APPPATH\Helpers\nominal_helper.php(6): number_format('', 0, ',', '.')
+ 2 APPPATH\Views\admin\data_produk.php(47): nominal('')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 6 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:47:11 --> ErrorException: Undefined variable $nominal
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Views\admin\data_produk.php on line 47.
+ 1 APPPATH\Views\admin\data_produk.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nominal', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php', 47)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:47:47 --> ErrorException: Undefined variable $nominal
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Views\admin\data_produk.php on line 47.
+ 1 APPPATH\Views\admin\data_produk.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nominal', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php', 47)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:47:59 --> TypeError: number_format(): Argument #1 ($num) must be of type float, string given
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Helpers\nominal_helper.php on line 6.
+ 1 APPPATH\Helpers\nominal_helper.php(6): number_format('', 0, ',', '.')
+ 2 APPPATH\Views\admin\data_produk.php(47): nominal('')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 6 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:49:29 --> TypeError: number_format(): Argument #1 ($num) must be of type float, string given
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Views\admin\data_produk.php on line 47.
+ 1 APPPATH\Views\admin\data_produk.php(47): number_format('', 2, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:49:51 --> TypeError: number_format(): Argument #1 ($num) must be of type float, string given
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Views\admin\data_produk.php on line 47.
+ 1 APPPATH\Views\admin\data_produk.php(47): number_format('', 2, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:50:03 --> TypeError: number_format(): Argument #1 ($num) must be of type float, string given
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Helpers\nominal_helper.php on line 6.
+ 1 APPPATH\Helpers\nominal_helper.php(6): number_format('', 0, ',', '.')
+ 2 APPPATH\Views\admin\data_produk.php(47): nominal('', 2, ',', '.')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 6 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:51:02 --> TypeError: number_format(): Argument #1 ($num) must be of type float, string given
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Views\admin\data_produk.php on line 47.
+ 1 APPPATH\Views\admin\data_produk.php(47): number_format('', 2, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:51:24 --> TypeError: number_format(): Argument #1 ($num) must be of type float, string given
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Views\admin\data_produk.php on line 47.
+ 1 APPPATH\Views\admin\data_produk.php(47): number_format('', 2, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:56:03 --> ErrorException: Undefined variable $getBarang
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Views\admin\data_produk.php on line 38.
+ 1 APPPATH\Views\admin\data_produk.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getBarang', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php', 38)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-02 17:56:04 --> ErrorException: Undefined variable $getBarang
+[Method: GET, Route: admin/data_produk]
+in APPPATH\Views\admin\data_produk.php on line 38.
+ 1 APPPATH\Views\admin\data_produk.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getBarang', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php', 38)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fashion-store-ci\\app\\Views\\admin\\data_produk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/data_produk', [], true)
+ 5 APPPATH\Controllers\ProdukController.php(18): view('admin/data_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')

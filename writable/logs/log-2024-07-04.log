@@ -1,0 +1,86 @@
+CRITICAL - 2024-07-04 15:43:07 --> ErrorException: Undefined property: App\Controllers\ProdukController::$ProdukModel
+[Method: GET, Route: admin/data_produk/hapus/13]
+in APPPATH\Controllers\ProdukController.php on line 63.
+ 1 APPPATH\Controllers\ProdukController.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProdukController::$ProdukModel', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Controllers\\ProdukController.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->hapus('13')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-04 15:44:04 --> ArgumentCountError: Too few arguments to function App\Controllers\ProdukController::hapus(), 0 passed in C:\xampp\htdocs\fashion-store-ci\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: admin/data_produk/hapus/13]
+in APPPATH\Controllers\ProdukController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->hapus()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-04 15:58:44 --> Error: Call to a member function getRow() on array
+[Method: GET, Route: admin/data_produk/hapus/13]
+in APPPATH\Controllers\ProdukController.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->hapus('13')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-04 16:06:40 --> ErrorException: Undefined property: App\Controllers\ProdukController::$ProdukModel
+[Method: GET, Route: admin/data_produk/hapus/13]
+in APPPATH\Controllers\ProdukController.php on line 63.
+ 1 APPPATH\Controllers\ProdukController.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProdukController::$ProdukModel', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Controllers\\ProdukController.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->hapus('13')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-04 16:07:06 --> ErrorException: Undefined property: App\Controllers\ProdukController::$ProdukModel
+[Method: GET, Route: admin/data_produk/hapus/13]
+in APPPATH\Controllers\ProdukController.php on line 63.
+ 1 APPPATH\Controllers\ProdukController.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProdukController::$ProdukModel', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Controllers\\ProdukController.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->hapus('$')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-04 16:08:20 --> ErrorException: Undefined property: App\Controllers\ProdukController::$ProdukModel
+[Method: GET, Route: admin/data_produk/hapus/13]
+in APPPATH\Controllers\ProdukController.php on line 63.
+ 1 APPPATH\Controllers\ProdukController.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProdukController::$ProdukModel', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Controllers\\ProdukController.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->hapus('13')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-04 16:11:44 --> ErrorException: Undefined property: App\Controllers\ProdukController::$ProdukModel
+[Method: GET, Route: admin/data_produk/hapus/13]
+in APPPATH\Controllers\ProdukController.php on line 63.
+ 1 APPPATH\Controllers\ProdukController.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProdukController::$ProdukModel', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Controllers\\ProdukController.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->hapus('13')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
+CRITICAL - 2024-07-04 16:12:00 --> ErrorException: Undefined property: App\Controllers\ProdukController::$ProdukModel
+[Method: GET, Route: admin/data_produk/hapus/13]
+in APPPATH\Controllers\ProdukController.php on line 63.
+ 1 APPPATH\Controllers\ProdukController.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProdukController::$ProdukModel', 'C:\\xampp\\htdocs\\fashion-store-ci\\app\\Controllers\\ProdukController.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->hapus('13')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\fashion-store-ci\\public\\index.php')
